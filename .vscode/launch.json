@@ -1,0 +1,13 @@
+{
+  "configurations": [
+    {
+      "name": "Launch Server",
+      "cwd": "${workspaceFolder}/server",
+      "program": "${workspaceFolder}/server/src/index.js",
+      "runtimeExecutable": "${workspaceFolder}/server/node_modules/.bin/babel-node",
+      "request": "launch",
+      "type": "node",
+      "console": "integratedTerminal",
+    }
+  ]
+}

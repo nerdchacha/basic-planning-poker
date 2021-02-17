@@ -1,0 +1,44 @@
+@import '../../../styles/variables.scss';
+@import '../../../styles//mixin.scss';
+
+.home-page-container {
+	background-image: url('../../../assets/hero.jpeg');
+	width: 100%;
+	height: 100vh;
+	background-position: 600px 60px;
+	background-repeat: no-repeat;
+	background-size: 1000px;
+	background-color: $SECONDARY_COLOR;
+
+	h3 {
+		padding: 12px 20px;
+		@include box-shadow;
+		background-color: #fff;
+		font-weight: 600;
+		color: $PRIMARY_COLOR;
+		font-size: 32px;
+		margin: 0;
+		-webkit-text-stroke: 1px white;
+	}
+
+	section {
+		width: 500px;
+		background: $PRIMARY_COLOR;
+		@include box-shadow;
+		border-radius: 4px;
+		margin: 20px;
+		padding: 20px;
+		position: relative;
+		top: 100px;
+		h4 {
+			margin: 0;
+			font-weight: 500;
+			font-size: 26px;
+			color: white;
+		}
+		p {
+			line-height: 1.4em;
+			color: white;
+		}
+	}
+}
